@@ -6,7 +6,7 @@ import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import { logoutUser } from "../../actions/authActions";
 
-className Header extends Component{
+class Header extends Component{
 
     constructor(props) {
         super(props);
