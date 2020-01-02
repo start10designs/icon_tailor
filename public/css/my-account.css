@@ -104,10 +104,6 @@ img.top-head-user {
     border-radius: 100%;
 }
 
-.left-bar {
-    padding: 30px 0px;
-    width: 350px;
-}
 
 .bar-heading {
     padding-left: 30px;
@@ -139,15 +135,7 @@ img.top-head-user {
 
 .icon-set .single-icon a {
     height: 118px !important;
-    width: 118px !important;
-}
-
-.icon-set .single-icon a img {
-    width: 70px !important;
-}
-
-.right-listing {
-    padding-top: 30px;
+    width: 116px !important;
 }
 
 .bar-ryt-head h2 {
@@ -251,6 +239,13 @@ img.top-head-user {
     font-size: 17px;
     border: 0;
     border-radius: 7px;
+	transition: .3s;
+}
+
+.update-btn button:hover {
+    background: #494949;
+    color: #fff;
+    transition: .3s;
 }
 
 .downloads-cnt table {
@@ -307,6 +302,11 @@ img.top-head-user {
     text-decoration: none;
     font-weight: 500;
     border-radius: 20px;
+}
+
+.subscription-btn:hover {
+	color:#fff;
+	text-decoration:none;
 }
 
 .downloads-cnt table tr .download {
@@ -499,10 +499,30 @@ img.top-head-user {
     float: right;
     font-size: 22px;
     display: none;
+	margin:20px;
+	margin-bottom:0;
 }
 
 .top-head .table-work{
 	display:block;
+}
+
+.customised-icn-details {
+	display:none;
+}
+
+.customised-icn-list tr td .green {
+	cursor:pointer;
+}
+
+.back-btn-for-icon-list {
+	cursor:pointer;
+}
+
+.btn-for-list {
+	background:transparent;
+	border:0;
+	font-weight:500;
 }
 
 
