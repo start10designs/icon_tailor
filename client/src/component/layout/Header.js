@@ -6,7 +6,7 @@ import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import { logoutUser } from "../../actions/authActions";
 
-class Header extends Component{
+className Header extends Component{
 
     constructor(props) {
         super(props);
@@ -40,13 +40,13 @@ class Header extends Component{
     render(){
         return (
             <header>
-                <div class="container">
-                    <div class="header-top">
-                        <a class="navbar-brand" href="index.html">
+                <div className="container">
+                    <div className="header-top">
+                        <a className="navbar-brand" href="index.html">
                             <img src="img/icon-tailor-logo.svg" alt="Start My Icon" />
                         </a>
-                        <div class="header-btn main_dropdown_header">
-                            <div class="dropdown">
+                        <div className="header-btn main_dropdown_header">
+                            <div className="dropdown">
                                 <button className=" btn language-btn-header dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                     {this.state.text} <i className="material-icons">keyboard_arrow_down</i>
                                 </button>
@@ -57,7 +57,7 @@ class Header extends Component{
                                 { this.state.isLoggedIn ? this.state.user.name : <Login /> }
                             </div>
                         </div>
-                        <div class="clearfix"></div>
+                        <div className="clearfix"></div>
                     </div>
                 </div>
             </header>
